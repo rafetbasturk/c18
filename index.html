@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Project tracking intro component</title>
+
+</head>
+<body>
+  <div id="background"></div>
+
+  <nav>
+    <img src="./images/logo.svg" alt="logo">
+
+    <div id="navigation">
+      <img id="hamburger" onclick="toggle()" src="./images/icon-hamburger.svg" alt="hamburger icon">
+      <img id="close" onclick="toggle()" style="display: none;" src="./images/icon-close.svg" alt="close icon">
+      <ul id="nav-menu" style="display: none;">
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <hr>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div id="illustration">
+    <!-- <img src="./images/illustration-devices.svg" alt="devices"> -->
+  </div>
+
+  <main>
+    <section>
+      <h3>New</h3>
+      <span>Monograph Dashboard</span>
+    </section>
+
+    <article>
+      <div>
+        <h1>Powerful insights into your team</h1>
+        <p>Project planning and time tracking for agile teams</p>
+      </div>
+      <a href="#">Schedule a demo</a>
+      <span>to see a preview</span>
+    </article>  
+  </main>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/rafetbasturk" target="_blank">Rafet</a>.
+    </p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

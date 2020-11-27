@@ -29,7 +29,6 @@ h1, h2, h3, h4, h5, h6, a {
     height: 420px;
     border-bottom-left-radius: 60px;
     background: hsl(207, 33%, 95%);
-    grid-column: 2 / 3;
     position: absolute;
     z-index: -5;
     right: 0;
@@ -62,7 +61,6 @@ nav{
 }
 
 #nav-menu li{
-    width: 100%;
     padding: 15px 0;
 }
 

@@ -21,21 +21,22 @@
     <img src="./images/logo.svg" alt="logo">
 
     <div id="navigation">
-      <img id="hamburger" onclick="toggle()" src="./images/icon-hamburger.svg" alt="hamburger icon">
-      <img id="close" onclick="toggle()" style="display: none;" src="./images/icon-close.svg" alt="close icon">
-      <ul id="nav-menu" style="display: none;">
+      <div id="nav-icons">
+        <img id="hamburger" onclick="toggle()" src="./images/icon-hamburger.svg" alt="hamburger icon">
+        <img id="close" onclick="toggle()" style="display: none;" src="./images/icon-close.svg" alt="close icon">
+      </div>
+      <ul id="nav-menu">
         <li><a href="#">Product</a></li>
         <li><a href="#">Features</a></li>
         <li><a href="#">Pricing</a></li>
-        <hr>
+        <li><div id="dot"></div></li>
+        <li><hr></li>
         <li><a href="#">Login</a></li>
       </ul>
     </div>
   </nav>
   
-  <div id="illustration">
-    <!-- <img src="./images/illustration-devices.svg" alt="devices"> -->
-  </div>
+  <div id="illustration"></div>
 
   <main>
     <section>
